@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+    <title>Fritz Henrique - Dev FullStack e Engenheiro de Dados</title>
+</head>
+
+<body>
+    <section id="menu">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacts">Contatos</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <section id="home">
+
+        <div class="apres">
+            <span>
+                <img src="{% static 'assets/images/code.png' %}" alt="">
+            </span>
+            <div><h1 style="font-size: 38px;">Fritz Henrique</h1>
+            <h3>Desenvolvedor FullStack e Engenheiro de Dados</h3></div>
+            <span>
+                <img src="{% static 'assets/images/data-management.png' %}" alt="">
+            </span>
+        </div>
+        <div class="tecno">
+            <img src="{% static 'assets/images/browser.png' %}" alt="">
+            <img src="{% static 'assets/images/js-file.png' %}" alt="">
+            <img src="{% static 'assets/images/python.png' %}" alt="">
+            <img src="{% static 'assets/images/django.png' %}" alt="">
+            <img src="{% static 'assets/images/database.png' %}" alt="">
+            <img src="{% static 'assets/images/linux.png' %}" alt="">
+        </div>
+    </section>
+
+    <div class="bar">
+        <h1>Sobre Mim</h1>
+    </div>
+
+    <section id="about">
+        <div class="text">
+            <p>Sou um desenvolvedor full stack com experiência em engenharia de dados. Estou no terceiro semestre do
+                curso
+                de
+                Ciência da Computação na Universidade Federal de Roraima - UFRR, com previsão de término em DEZ/2026.
+            </p>
+            <p>Estou proficiente em uma variedade de tecnologias, incluindo:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+            <p>Também tenho experiência em:</p>
+            <ul>
+                <li>Desenvolvimento web</li>
+                <li>Engenharia de dados</li>
+                <li>Machine learning</li>
+            </ul>
+            <p>Estou sempre em busca de novos desafios e oportunidades de aprender e crescer. Se você estiver
+                interessado em
+                saber mais sobre meu trabalho, entre em contato comigo.</p>
+        </div>
+    </section>
+    <div class="bar">
+        <h1>Projetos</h1>
+    </div>
+    <div class="bar">
+        <h1>Contatos</h1>
+    </div>
+
+</body>
+
+</html>

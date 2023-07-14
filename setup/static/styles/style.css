@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #a7a0a0;
+    background-color: #272727;
+}
+li {
+    list-style: none;
+}
+
+#menu nav ul {
+    border: 1px red solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 15%;
+    padding: 1% 0;
+  }
+  
+#menu nav ul li {
+    margin: 0 8%;
+      }
+  
+#menu nav ul li a {
+    text-decoration: none;
+    color: #a7a0a0;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.apres {
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apres img{width: 60%;}
+
+#home .tecno{
+    display: flex;
+    margin: 0 10%;
+    width: 80%;
+}
+.tecno img{
+    width: 100%;
+    padding: 3%;
+}
+
+.bar{
+    text-align: center;
+    border: solid 1px rgb(255, 0, 0);
+}
+
+
+
+#about {
+    text-align: center;
+    display: block;
+}
+
+#about .text {
+    width: 50%;
+    margin: 2% 25%;
+
+}
